@@ -1,13 +1,14 @@
+// importo react. Siempre importar React
 import React from 'react';
-
-import './App.css';
 // importo el componente Header.js
 import Header from './Header.js';
+// importo la hoja de estilos de App.css
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
     </div>
   );
 }
