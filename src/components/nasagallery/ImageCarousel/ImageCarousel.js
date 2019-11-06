@@ -1,30 +1,27 @@
 // importo react. Siempre importar React
 import React from 'react';
-
 // importo la hoja de estilos de ImageCarousel.css
-
-
+import './ImageCarousel.css';
+// importo Thumb 
+import Thumb from './Thumb';
 // importo NavButton 
 import NavButton from './NavButton';
 
-// importo Thumb 
-import Thumb from './Thumb';
-
 // Creo el modulo NASAGallery
-function ImageCarousel() {
+const ImageCarousel = () => {
 	return(
-		<div>
-			<NavButton label="<" />
+		<div className="ImageCarousel-container">
+			<NavButton label="<<" />
 			<Thumb />
 			<Thumb />
 			<Thumb />
 			{/* <Thumb ASI SE COMENTA /> */}
 			<Thumb />
 			<Thumb />
-			<NavButton label=">" />
+			<NavButton label=">>" />
 		</div>
 	);
-};
+}
 
 
 export default ImageCarousel;

@@ -7,9 +7,16 @@ import './Picture.css';
 // Creo el modulo Picture
 function Picture(props) {
 	return(
-		<img style={props.estilos} src="" alt="Imagen no encontrada"/>
+		<img className="mainPicture" src={props.imgUrl} alt="Imagen no encontrada"/>
 	);
 };
+
+// Asi se crea un componente
+// class Picture extends React.Component {
+// 	render() {
+// 		return <img style={props.estilos} src="" alt="Imagen no encontrada"/>
+// 	}
+// }
 
 
 export default Picture;

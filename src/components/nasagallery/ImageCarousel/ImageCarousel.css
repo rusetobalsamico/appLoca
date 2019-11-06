@@ -1,0 +1,8 @@
+.ImageCarousel-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+    background: lightyellow;
+    display: flex;
+    flex-flow: wrap row;
+}

@@ -1,4 +1,19 @@
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+}
+*,
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+body {
+  min-height: 100%;
+  background: #eee;
+  /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-flow: wrap column;
 }
 

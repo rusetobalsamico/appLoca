@@ -1,0 +1,11 @@
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    width:100px;
+    height: 100px;
+    border: 1px solid #d3d3d3;
+    background: white;
+}
+.img-responsive + .img-responsive {
+    margin-left: 1rem;
+}

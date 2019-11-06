@@ -4,19 +4,22 @@ import React from 'react';
 import './Header.css';
 
 // Creo el modulo Header
-function Header() {
+const Header = () => {
 	return(
 		<header className="App-header">
-			<div className="App-logo">
-				
+			<div className="container flex">
+				<div className="App-logo">
+					
+				</div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Nosotros</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
 			</div>
-			<ul>
-				<li>Home</li>
-				<li>Contacto</li>
-			</ul>
 		</header>
 	);
-};
+}
 
 export default Header;
 

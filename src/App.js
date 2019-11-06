@@ -6,11 +6,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 // importo el componente NASAGallery.js
 import NASAGallery from './components/nasagallery/NASAGallery';
-
 // importo la hoja de estilos de App.css
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header/>

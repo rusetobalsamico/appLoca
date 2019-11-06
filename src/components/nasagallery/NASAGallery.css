@@ -1,3 +1,7 @@
 .nasa-gallery-container {
-	border: 1px solid lightblue;
+	max-width: 1024px;
+	margin: 2rem auto;
+	padding: 1rem;
+	background: white;
+	text-align: center;
 }

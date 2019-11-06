@@ -4,10 +4,10 @@ import React from 'react';
 import './Footer.css';
 
 // Creo el modulo Footer
-function Footer() {
+const Footer = () => {
 	return(
 		<footer>ESTE ES EL FOOTER</footer>
 	);
-};
+}
 
 export default Footer;

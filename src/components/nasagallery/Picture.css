@@ -1,3 +1,10 @@
-.lalala{
+.lalala {
 	background: green;
+}
+.mainPicture {
+	color: red;
+	border: 1px solid #e2e2e2;
+	width: 500px;
+	height: 500px;
+	display: inline-block;
 }
